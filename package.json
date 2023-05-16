@@ -1,0 +1,19 @@
+{
+  "name": "majorly-meteoric",
+  "version": "1.0.0",
+  "description": "Statistical analysis of AWS integration data using Cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js --config cucumber.js"
+  },
+  "keywords": [],
+  "author": "Matt Ledder",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.332.0",
+    "@cucumber/cucumber": "^9.1.2",
+    "aws-sdk": "^2.1378.0",
+    "chai": "^4.3.7",
+    "dotenv": "^16.0.3"
+  }
+}
